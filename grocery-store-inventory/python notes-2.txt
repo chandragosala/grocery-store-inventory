@@ -1,0 +1,545 @@
+# task no:1
+# number=-87
+# if number>0:
+#     print("positive number")
+# elif number==0:
+#     print("its a zero")
+# else:
+#     print( "negative number! ")
+
+#task:2
+# a=1
+# b=1
+# if a>b:
+#     print("a is max")
+# elif a==b:
+#     print("both are same")
+# else:
+#     print("b is max")
+
+#task:3
+# a=31
+# b=5
+# c=222
+# if a>b and a>c:
+#     print("a")
+# elif b>a and b>c:
+#     print("b")
+# else:
+#     print("c")
+
+# task4::-
+# num= int(input("entr the num:"))
+# if num>99 and num<1000 and num%2==0:
+#     print("its a three digit even number")
+# else:
+#     print("not")
+
+#TASK5:-
+# a=102
+# b=153
+# c=110
+# if (a>=c>=b)or(c>=b>=a):
+#     print("mid val is b")
+# elif (b>=a>=c) or (c>=a>=b):
+#     print("mid valu is a")
+# else:
+#     print("c")
+
+#  task6:-
+# age=46
+# if age<7:
+#     print("child")
+# elif age<18:
+#     print("adult")
+# elif age<30:
+#     print("men")
+# elif age<50:
+#     print("uncle")
+# elif age<100:
+#     print("old men")
+# else:
+    # print("invalid age")
+
+#task7:-
+# score=560
+# if score>220:
+#     print("csk will win")
+# elif score>=200:
+#     print("high chances to win csk")
+# elif score<200 and score>180:
+#     print("csk might  win")
+# elif score<180 and score>160:
+#     print("rcb might win")
+# elif score<160:
+#     print("rcb will win")
+# else :
+#     print("the match abonded")
+
+# a=str(input("enter the name:"))
+# if a=="sujith":
+#     print("sujith age is 21")
+# elif a=="lokesh":
+#     print("lokesh age is 22")
+# elif a=="madhav":
+#     print("madhav age is 24")
+# else:
+#     print("chandra  age is 20")
+
+# text="python programming"
+# print(text[0:7])
+# print(text[7:])
+# print(text[15:19])
+# print(text[0:10:2])
+# print(text[:-1])
+# print(text[-18:-11])
+
+# text="learnpythonwithfun"
+# print(text[0:18:2])
+# print(text[5:11])
+# print(text[-7:-3])
+# x=slice(0,5)
+# print(text[x])
+# x=slice(1,8)
+# print(text[x])
+# x=slice(-13,-7)
+# print(text[x])
+# x=slice(-17,-1)
+# print(text[x])
+
+# text="masteringstringslicing"
+# x=slice(0,22,3)
+# print(text[x])
+# x=slice(3,19)
+# print(text[x])
+# x=slice(-22,-16)
+# x=slice(-22,-1,2)
+# print(text[x])
+# x=text.upper()
+# print(x)
+
+# letter="a,b,c,d"
+# for i in range(1):
+#     print(letter[::2])
+
+# num=0
+# for i in range(1,11):
+#     num+=i
+#     print(num)
+
+# i=1
+# while i<=10:
+#     print(i)
+#     i+=1
+## sum of numbers using for loop
+# total=0
+# for i in range(1,11):
+#     total=total+i
+# print(total)
+
+# age=10
+# while age>=19:
+#     print("u can")
+# else:
+#     print("u cant")
+
+##login page using while loop:-
+# username="chandra"
+# password=1234
+# while username>="chandra" and password>=1234:
+#     print("login sucessful")
+# else:
+#     print("re-enter the username and password")
+
+## sum of numbers using for loop:-
+# total=0
+# for i in range(1,11):
+#     total=total-i
+#     print(total)
+
+# #sum of numbers using whle loop:-
+# total=0
+# num=0
+# while num<11:
+#     total=total+num
+#     num+=1
+# print(total)
+# num=10
+# for i in range(1,10):
+#     print(num-i)
+
+# num=int(input("enter the number:"))
+# while num!=0:
+#     print("the entered number is:",num)
+#     num=int(input("enter a number:"))
+# print("end")
+
+# a="chandra"
+# print(len(a))
+
+# programes using for n while loop:-
+
+#1:-while
+# text=input("name plz:")
+# i=0
+# while i<len(text):
+#     print(text[i])
+#     i+=1
+# 1:-for
+# name=str(input("enter the name:"))
+# for i in name:
+#     print(i)
+
+# 2:-for
+# name=str(input("enter the name:"))
+# print("the length of name is:",len(name))
+# for i in name:
+#     print(i)
+
+# 2:-while
+# name=str(input("enter thr name:"))
+# print("length is:",len(name))
+# i=0
+# while i<len(name):
+#     print(name[i])
+#     i+=1
+#
+# 3:-
+# for i in range(21):
+#     if i %2==0:
+#         print(i)
+#
+# 3:-
+# i=0
+# while i<21:
+#     if i %2==0:
+#         print(i)
+#     i+=1
+
+# 4:-for
+# for i in range(21):
+#     if i %2!=0:
+#         print(i)
+# 4:-while
+# i=0
+# while i<=21:
+#     if i %2!=0:
+#         print(i)
+#     i+=1
+
+##5:-for
+# num=10
+# for i in range(11):
+#     print(num-i)
+
+# 5:-while
+# num=10
+# i=0
+# while i<11:
+#     print(num-i)
+#     i+=1
+
+#6:-for
+# num=20
+# for i in range(21):
+#     if i %2==0:
+#         print(num-i)
+
+#6:-while
+# num=20
+# i=0
+# while i<21:
+#     if i %2==0:
+#         print(num-i)
+#     i+=1
+#
+# 7:-for
+# i="*"
+# for j in range(1,6):
+#     print(j*i)
+
+# 7:- while
+# i="*"
+# j=0
+# while j<6:
+#     print(j*i)
+#     j+=1
+#
+# 8:-for
+# numbers = [23, 45, 12, 67, 34, 89, 5]
+# largest = numbers[0]
+# for num in numbers:
+#     if num > largest:
+#         largest = num
+# print("The largest number is:", largest)
+#
+# 9:-for
+# total=0
+# for i in range(10):
+#     total=total+i
+# print(total)
+
+# num=0
+# i=0
+# while i<10:
+#     num=num+i
+#     print(num)
+#     i+=1
+#                                      lists:--
+
+my_list=["chennai","banglore","hyderabad","kavali"]
+# print(my_list[-4])
+# print(my_list[0:3])
+# print(my_list[:3])
+# print(my_list[0:])
+# print(my_list[0:3:2])
+
+# to add elements in a list()
+
+# print(my_list[0:-3])
+# my_list[2]="chandra reddy palem"
+# print(my_list)
+# my_list.append("nellore")
+# print(my_list)
+# my_list.insert(2,"budamgunta")
+# print(my_list)
+
+# to delet elements in list()
+# del my_list[3]
+# print(my_list)
+
+# a=my_list.pop()
+# print(a)
+
+# my_list_del="chennai"
+# my_list.remove(my_list_del)
+# print(my_list)
+
+                     # sets:-
+# colours={"blue","red","orange","red"}
+# print(colours)
+# colours.add("black")
+# print(colours)
+# colours.update(["pink"])
+# print(colours)
+
+# list=["india","chaina","england","newzland"]
+
+# print(list)
+# print(len(list))
+# list[2]="us"
+# print(list)
+# list.append("africa")
+# print(list)
+# list.insert(2,"russia")
+# print(list)
+
+# del list[1]
+# print(list)
+# deleted=list.pop()
+# print(list)
+
+# list.sort()
+# print(list)
+# print(sorted(list))
+
+# set={"red","blue","orange","black"}
+# print(set)
+# set.add("mrirun")
+# print(set)
+# set.update(["pink"],["white"])
+# print(set)
+# set.remove("black")
+# print(set)
+# set.discard("")
+# print(set)
+
+# tup=(3,5,2,6,7)
+# print(tup)
+# print(tup[1])
+# print(tup.index(3))
+# print(tup.count(7))
+# for i in tup:
+#     if 3 in tup:
+#        print("no")
+#     else:
+#        print("yes")
+
+# user={"name":"chandra","age":21}
+# print(user["age"])
+# print(len(user))
+# del user['age']
+# print(user)
+# for key,value in user.items():
+#     print("key:"+key)
+#     print("value:"+str(value))
+
+# list=["virat","salt","padikal","swastik chikara","rajat","liam livngstone","bathel","jithesh","mayank","tim","shepard","kurnal","bhuvi","suyash","yash","josh","lungi","nawan","muzarbani"]
+# print(len(list))
+# print(type(list))
+
+# set={"virat","salt","mayank","patidar","liam","jihesh","remario","krunal","bhuvi","yash","hawalwod","suyash"}
+# # print(len(set))
+# print(type(set))
+
+# tuple=("virat","salt","patidar","jithesh","tim","krunal",'suyash','bhuvi')
+# print(type(tuple))
+
+# dict={"man of the match":"virat","most 4s":"salt","most sixs":"tim"}
+# print(dict)
+# print(type(dict))
+# for key,value in dict.items():
+#     print(key)
+#     print(value)
+
+# def sum(a,b):
+#     return a+b
+# print(sum(1,3))
+# print(sum(1,3))
+
+#exception handlng:-
+
+#even numbers:-
+# a=4
+# try:
+#     if a%2==0:
+#         print("it is even")
+#     else:
+#         print("odd")
+# except:
+#     print("value errror")
+# finally:
+#     print("always")
+
+#positive negative number:
+# a=-2
+# try:
+#     if a>=0:
+#         print("positive")
+#     else:
+#         print("negative")
+# except:
+#     print("value error")
+# finally:
+#     print("always")
+
+#even three digit number:-
+# a=344
+# try:
+#     if a>99 and a<999 and a%2==0:
+#         print("correct")
+#     else:
+#         print("worng")
+# except:
+#     print("error")
+# finally:
+#     print("always")
+#-------------------------------------------------------------------------------
+
+#                 imp interview questons--1:
+#finding mid value:-
+# a=1
+# b=3
+# c=2
+# if (a>=c>=b)or(c>=b>=a):
+#     print("mid val is b")
+# elif (b>=a>=c) or (c>=a>=b):
+#     print("mid valu is a")
+# else:
+#     print("c")
+
+# finding even or odd number:
+# a=1
+# b=32
+# c=29
+# if (a %2==0) and (b  %2==0):
+#     print(" a,b even")
+# elif (a %2==0) and (c %2==0):
+#     print(" a,c even")
+# elif (b %2==0) and (c %2==0):
+#     print("b,c even")
+# else:
+#     print("all are odd")
+
+# take a string input and print it in reverse:-
+# text = str(input("type the name:"))
+# for i in range(len(text)-1,-1,-1):
+#     print(text[i],end="")
+
+#print the no.of vowels in string:-
+# name=str(input("name plz:"))
+# vowels="aeiousAEIOUS"
+# count=0
+# for char in name:
+#     if char in vowels:
+#         count+=1
+# print(count)
+
+#print multiplication of the numbers:-
+# a=3
+# for i in range(1,11):
+#     print(a,"x", i,"=" ,a*i)
+
+#print factorial of a number using loop:-
+# num=int(input("place the value:"))
+# fact=1
+# for i in range(1,num+1):
+#     fact=fact*i
+#     print(fact)
+
+#check if it is leap year:-
+# year = int(input("Enter a year: "))
+# if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#     print(year, "is a leap year.")
+# else:
+#     print(year, "is not a leap year")
+
+#find the sum of all numbers:-
+# num=4
+# a=0
+# for i in range(1,num+1):
+#     a=a+i
+#     print(a)
+
+#finding prime number or not:-
+# num = int(input("Enter a number: "))
+#  if num <= 1:
+#      print("Not a prime number")
+#  else:
+#      for i in range(2, num):
+#          if num % i == 0:
+#              print("Not a prime number")
+#              break
+#      else:
+#          print("Prime number")
+
+#converting celcus to farhan heat:-
+# celcus=float(input("enter the heat:"))
+# farhanheat=(celcus*9/5)+32
+# print("farhan heat is:",farhanheat)
+
+#sum of numbers using for loop;-
+# a=0
+# for i in range(1,11):
+#     a=a+i
+#     print(a)
+#-----------------------------------------------------------------------------------------------
+# list=[1,3,2,3,4,2,5,3,6,3,1,6]
+# # unlist=[]
+# # for items in list:
+# #     if items not in unlist:
+# #         unlist.append(items)
+# # print(unlist)
+#
+# dup=[]
+# for items in list:
+#     if list.count(items)>1 and items not in dup:
+#         dup.append(items)
+# print(dup)
+
+# my_list=[1,3,2,3,4,2,5,3,6,3,1,6]
+# n=set(my_list)
+# print(n)
+
+
+

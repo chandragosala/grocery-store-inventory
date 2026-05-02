@@ -1,0 +1,234 @@
+# num=0
+# if num>0:
+#     print("positive number")
+# else:
+#     print("negitive number")
+
+# num=25
+# if num %2==0:
+#     print ('even')
+# else:
+#     print("odd")
+
+# num=288
+# if num>99 and num<999 and num %2==0:
+#     print('three dit even number')
+# elif num %2==0 and num< 99 :
+#     print("two digit even number")
+# elif num >99 and num<999 and num %2 !=0:
+#     print ("three digit number but not even")
+# else:
+#     print("not valid")
+
+# num= int(input("enter number"))
+# if num>1:
+#     for i in range(2,num):
+#         if num % i ==0:
+#             print(" not prime number ")
+#             break
+#         else:
+#             print("prime number")
+# else :
+#     print("not a prime number")
+# ______________________________________
+# num=0
+# if num % 2==0:
+#     print("even")
+# else:
+#     print("odd")
+
+# num=-3
+# if num>0:
+#     print("positive")
+# elif num==0:
+#     print("zero")
+# else:
+#     print( "negative")
+
+# a=30
+# b=49
+# c=10
+# if a>b and a>c:
+#     print(a)
+# elif b>a and b>c:
+#     print(b)
+# else:
+#     print(c)
+
+# year = 2024
+# if year %4==0 and year % 100 !=0:
+#     print ("leap year")
+# else:
+#     print('not a leap year')
+
+# word=input('enter a word:').lower()
+# if word in "aeiou":
+#     print("vowel")
+# else:
+#     print("CONSONANT")
+
+# age=int(input("enter your age:"))
+# if age >= 18:
+#     print("you are eligible")
+# else:
+#     print("you are not eligible")
+
+# marks=80
+# if marks >=90:
+#     print(" A grade")
+# elif marks >=80:
+#     print("B grade")
+# elif marks >=70:
+#     print("C grade")
+# else:
+#     print("D grade")
+
+# num=10
+# for i in range(0 , 11):
+#     i=num-i
+#     print(i)
+
+# num=5
+# fact=1
+# for i in range(1,num+1):
+#     fact=fact*i
+#     print(fact)
+
+# for i in range(1,10):
+#     if i % 2==0:
+#         print(i)
+
+# num=0
+# for i in range(1,10):
+#     num=num+i
+#     print(num)
+
+# letter= 'a,b,c,d'
+# for i in range(1):
+#     print(letter[::2])
+
+# for i in range(1,20):
+#     if i % 2==0:
+#         print (i)
+
+# for i in range (0,30):
+#     if i %2!=0:
+#         print(i)
+# num=0
+# for i in range(0,10):
+#     num=num+i
+#     print(num)
+
+# fact=1
+# for i in range(1,5):
+#     fact=fact*i
+#     print(fact)
+
+# num=2
+# for i in range(1,11):
+#     print("2 x",i,"=",num*i)
+
+# num=10
+# for i in range(num):
+#     i=num-i
+#     print(i)
+
+# num=1331
+# num=str(num)
+# if num == num [::-1]:
+#     print("palindrome")
+# else:
+#     print("not a palindrome")
+
+# num=1
+# for i in range(1,11):
+#     num=num+i
+#     print(num)
+
+# num=int(input("entert the number "))
+# if num >=1:
+#     for i in range(1,num):
+#         if num % i ==0:
+#             print("it is not a prime number")
+#         else:
+#             print("it is a prime number")
+
+# for num in range(2, 51):
+#     is_prime = True
+#     for i in range(2, int(num**0.5) + 1):
+#         if num % i == 0:
+#             is_prime = False
+#             break
+#     if is_prime:
+#         print(num)
+
+# num=int(input("enter the number"))
+# a=0
+# b=1
+# print("fibonacci series")
+# for i in range(1,num+1):
+#     print(a, end=" ")
+#     a,b = b, a+b
+
+
+# class pondy:
+#     def party(self):
+#         print("lets party")
+#     def beach(self):
+#         print("enjoy")
+# chandra =pondy()
+# chandra.party()
+# chandra.beach()
+
+# class person:
+#     def __init__(self,name,age:):
+#         self.name=name
+#         self.age=age
+#     def dispaly(self):
+#         print("name:",self.name,"age",self.age)
+# person1=person("chandra",22)
+# person1.dispaly()
+# person2=person("shankar",23)
+# person2.dispaly()
+
+# class animal:
+#     def make_sound(self):
+#         print("make different sounds")
+#     def bark(self):
+#         print("dog")
+# obj=animal()
+# obj.make_sound()
+# obj.bark()
+
+# class parent:
+#     def greet(self):
+#         print("hello from parent")
+# class child(parent):
+#     def say_hii(self):
+#         print("hello from child")
+# obj=child()
+# obj.say_hii()
+# obj.greet()
+
+# class parent:
+#     def greet(self):
+#         print("hello from parent")
+# class child(parent):
+#     def say_hii(self):
+#         print("hello from child")
+# class reletives(child):
+#     def what_are_you_doing(self):
+#         print("how was the job")
+# obj=reletives()
+# obj.greet()
+# obj.say_hii()
+# obj.what_are_you_doing()
+
+# class person:
+#     def parent(self):
+#         print("hi parent")
+# class person2(person):
+#     def parent(self):
+#         print("hi child")
+# obj=person()
+# obj.parent()
